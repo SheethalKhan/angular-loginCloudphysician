@@ -13,7 +13,7 @@ const routes:Routes=[
 ]
 @NgModule({
   imports:      [ BrowserModule, FormsModule,RouterModule.forRoot(routes),ReactiveFormsModule ],
-  declarations: [ AppComponent, HelloComponent ],
+  declarations: [ AppComponent, HelloComponent,LoginComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
